@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: checking the version of node
         run: node --version
-second-job:
+  second-job:
     runs-on: windows-latest
     steps:
       - name: checking the version of npm
